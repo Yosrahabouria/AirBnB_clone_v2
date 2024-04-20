@@ -45,7 +45,7 @@ def numbersandevenness(n):
         ev = 'even'
     else:
         ev = 'odd'
-    return render_template('6-number_odd_or_even.html', n=n,)
+    return render_template('6-number_odd_or_even.html', number=n)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
