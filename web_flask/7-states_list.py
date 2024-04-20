@@ -43,7 +43,7 @@ def numbersandevenness(n):
         ev = 'even'
     else:
         ev = 'odd'
-    return render_template('6-number_odd_or_even.html', number=n)
+    return render_template('7-state_list.html', number=n, ev = ev)
 
 
 @app.route('/states_list', strict_slashes=False)
