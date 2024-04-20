@@ -17,7 +17,7 @@ class State(BaseModel, Base):
     cities = relationship("City", cascade="all,delete", backref="state")
 
     @property
-    def cities(self):
+    def get_cities(self):
         """  Def of cities"""
         from models import storage
         allcities = storage.all(City)
