@@ -29,18 +29,18 @@
 }
 
 .popover {
-	list-style-type: none;
-	display: none;
-	background-color: #FAFAFA;
-	width: 100%;
-
-	margin-left: -1px;
-	margin-top: 8px;
-	padding: 25px 0px;
-
-	border: 1px solid #DDDDDD;
-	border-radius: 4px;
+    display: none;
+    position: relative;
+    left: -51px;
+    background-color: #FAFAFA;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    z-index: 1;
+    padding: 30px 50px 30px 0;
+    margin-top: 17px;
 }
+
 
 .locations:hover .popover {
 	display: inline-block;
